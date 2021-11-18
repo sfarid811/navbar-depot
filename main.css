@@ -113,13 +113,13 @@ header nav a {
 	padding-top: 120px;
     transform: translateX(-150px);
     transition-delay: 250ms;
+    gap: 3rem;
     
    
     
     }
     .mobile-nav a {
       
-        margin: 1.5rem;
         display: inline-block;
         width: 100%;
         text-align: center;
