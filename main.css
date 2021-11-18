@@ -98,8 +98,7 @@ header nav a {
     .container nav {
         display: none;
     }
-
-    .mobile-nav {
+ .mobile-nav {
     position: fixed;
 	top: 0;
 	right: 100%;
@@ -114,17 +113,16 @@ header nav a {
     transform: translateX(-150px);
     transition-delay: 250ms;
     gap: 3rem;
+    margin-left: 10%;
     
-   
-    
+
     }
     .mobile-nav a {
-      
-        display: inline-block;
-        width: 100%;
-        text-align: center;
+        display: inline-flex;
         padding: 1rem;
+        margin-left: 1.5rem;
         font-size: 20px;
+       
     }
     .mobile-nav.is-active {
         right: 0;
